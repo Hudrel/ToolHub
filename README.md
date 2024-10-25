@@ -11,7 +11,7 @@
 
 ## Technologies Utilisées
 
-- **Langage** : C#
+- **Langage** : C# ; Python
 - **Framework** : WPF pour une interface utilisateur moderne et réactive
 - **APIs** :
   - [OpenAI API](https://platform.openai.com/signup) pour l'intégration de ChatGPT
