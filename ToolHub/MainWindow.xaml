@@ -1,0 +1,102 @@
+﻿<Window x:Class="ToolHub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolHub"
+        mc:Ignorable="d"
+        Title="ToolHub" Height="500" Width="450"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" ShowInTaskbar="False">
+    
+    <Window.Resources>
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            CornerRadius="5"
+                            Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF5A5A5A"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid Background="White">
+        <!-- Définition des lignes -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <!-- Hauteur de la barre de titre -->
+            <RowDefinition Height="*" />
+            <!-- Zone principale -->
+        </Grid.RowDefinitions>
+
+        <!-- Barre personnalisée -->
+        <Border Background="#FF4A4A4A" CornerRadius="0,0,10,10" Margin="0,0,0,5">
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="2"/>
+            </Border.Effect>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <!-- Colonne pour le titre -->
+                    <ColumnDefinition Width="Auto" />
+                    <!-- Colonne pour les boutons -->
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="ToolHub" FontWeight="Bold" Margin="10,0" 
+                           Foreground="White" VerticalAlignment="Center" FontSize="14"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1">
+                    <Button Width="30" Click="Minimize_Click" Background="Transparent" BorderBrush="Transparent" 
+                            Style="{StaticResource ModernButton}">
+                        <TextBlock Text="-" Foreground="White" FontSize="16"/>
+                    </Button>
+                    <Button Width="30" Click="Close_Click" Background="Transparent" BorderBrush="Transparent" 
+                            Style="{StaticResource ModernButton}">
+                        <TextBlock Text="X" Foreground="White" FontSize="16"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Définition des colonnes pour le contenu principal -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60" />
+                <!-- Largeur du menu -->
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Zone principale -->
+            <Grid Grid.Column="1" Background="White">
+                <!-- Contenu de l'application principale ici -->
+            </Grid>
+
+            <!-- Menu latéral gauche -->
+            <StackPanel Grid.Column="0" Background="LightGray" Margin="10" VerticalAlignment="Stretch">
+                <Button Margin="0,5,0,0" Click="ChatGPT_Click" Style="{StaticResource ModernButton}">
+                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="/ChatGPT-Logo.png" Width="40" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </Button>
+                <Button Margin="0,5,0,0" Click="Spotify_Click" Style="{StaticResource ModernButton}">
+                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="/Spotify_Primary_Logo_RGB_Green.png" Width="40" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
