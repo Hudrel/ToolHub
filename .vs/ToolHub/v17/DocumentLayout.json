@@ -3,18 +3,12 @@
   "WorkspaceRootPath": "E:\\Perso Dev\\ToolHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|e:\\perso dev\\toolhub\\toolhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|solutionrelative:toolhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|e:\\perso dev\\toolhub\\toolhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|E:\\Perso Dev\\ToolHub\\toolhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|solutionrelative:toolhub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ToolHub||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|e:\\perso dev\\toolhub\\toolhub\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|e:\\perso dev\\toolhub\\toolhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C9AED26-9632-424E-A017-219ECA65C3BF}|ToolHub\\ToolHub.csproj|solutionrelative:toolhub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,19 +22,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ToolHub",
-              "DocumentMoniker": "E:\\Perso Dev\\ToolHub\\ToolHub\\ToolHub.csproj",
-              "RelativeDocumentMoniker": "ToolHub\\ToolHub.csproj",
-              "ToolTip": "E:\\Perso Dev\\ToolHub\\ToolHub\\ToolHub.csproj",
-              "RelativeToolTip": "ToolHub\\ToolHub.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-25T16:00:47.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\Perso Dev\\ToolHub\\ToolHub\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ToolHub\\MainWindow.xaml",
@@ -52,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\Perso Dev\\ToolHub\\ToolHub\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ToolHub\\MainWindow.xaml.cs",
               "ToolTip": "E:\\Perso Dev\\ToolHub\\ToolHub\\MainWindow.xaml.cs",
               "RelativeToolTip": "ToolHub\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T15:48:13.682Z",
               "EditorCaption": ""

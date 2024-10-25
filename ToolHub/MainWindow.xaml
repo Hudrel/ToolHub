@@ -81,7 +81,6 @@
 
             <!-- Zone principale -->
             <Grid Grid.Column="1" Background="White">
-                <!-- Contenu de l'application principale ici -->
             </Grid>
 
             <!-- Menu latéral gauche -->

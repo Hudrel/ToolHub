@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("spotify_primary_logo_rgb_green.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("selenium-manager")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("selenium-manager")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("selenium-manager.exe")]
 
 

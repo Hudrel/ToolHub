@@ -1,29 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using SpotifyAPI.Web;
 
 namespace ToolHub
 {
-    /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
         private void Minimize_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -41,13 +31,7 @@ namespace ToolHub
 
         private void Spotify_Click(object sender, RoutedEventArgs e)
         {
-            // Logique pour afficher ou charger l'outil Spotify
+            // Logique pour afficher ou charger l'outil ChatGPT
         }
-
-        private void OtherTool_Click(object sender, RoutedEventArgs e)
-        {
-            // Logique pour afficher ou charger d'autres outils
-        }
-
     }
 }
